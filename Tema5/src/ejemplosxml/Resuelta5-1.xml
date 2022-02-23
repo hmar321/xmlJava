@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libros editorial="paraninfo">
+	 <libro id="1" digital="false" papel="true">
+	 	<titulo>LENGUAJE DE MARCHAS Y SISTEMAS DE GESTIÓN DE LA INFORMACIÓN</titulo>
+	 </libro>
+<!-- ESTO ES UN COMENTARIO -->
+	<libro id="2" digital="true" papel="true">
+	 	<titulo>SISTEMAS INFORMÁTICOS</titulo>
+	 </libro>
+	 <libro id="3" digital="false" papel="true">
+	 	<titulo>BASES DE DATOS</titulo>
+	 </libro>
+	 <libro id="4" digital="true" papel="true">
+	 	<titulo>ENTORNOS DE DESARROLLO</titulo>
+	 </libro>
+	 <libro id="5" digital="false" papel="true">
+	 	<titulo>PROGRAMACIÓN</titulo>
+	 </libro>
+	 <libro id="6" digital="true" papel="true">
+	 	<titulo>FORMACIÓN Y ORIENTACIÓN LABORAL</titulo>
+	 </libro>
+</libros>
