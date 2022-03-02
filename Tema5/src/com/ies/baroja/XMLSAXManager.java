@@ -10,14 +10,12 @@ public class XMLSAXManager extends DefaultHandler {
 	private StringBuffer sb;
 
 	@Override
-
 	public void startDocument() throws SAXException {
 		System.out.println("Inicio del documento");
 	}
 
 	@Override
-
-	public void startElement(String uri, String localName,String qName, Attributes atts) throws SAXException {
+	public void startElement(String url, String localName,String qName, Attributes atts) throws SAXException {
 	
 		if (qName.equals("titulo")){ 
 			sb = new StringBuffer();
@@ -35,7 +33,7 @@ public class XMLSAXManager extends DefaultHandler {
 
 	@Override
 
-	public void endElement(String uri, String localName,String qName) throws SAXException {
+	public void endElement(String url, String localName,String qName) throws SAXException {
 		if (qName.equals("titulo")) { 
 			System.out.println (sb);
 		}
@@ -43,7 +41,6 @@ public class XMLSAXManager extends DefaultHandler {
 		}
 
 	@Override
-
 	public void endDocument() throws SAXException {
 
 	System.out.println("Final del documento");
