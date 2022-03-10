@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<paises>
+    <pais nombre="Argentina">
+        <ciudad>Buenos Aires</ciudad>
+        <ciudad>Rosario</ciudad>
+    </pais>
+    <pais nombre="Mexico">
+        <ciudad>Guadalajara</ciudad>
+        <ciudad>Monterrey</ciudad>
+        <ciudad>Cacun</ciudad>
+        <ciudad>Merida</ciudad>
+        <ciudad>Ciudad de Mexico</ciudad>
+    </pais>
+    <pais nombre="Colombia"/>
+</paises>

@@ -1,10 +1,13 @@
 package com.ies.baroja;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.StringWriter;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -57,5 +60,16 @@ public class Utilidades {
 		return documentoXML;
 	}
 	
+	public static void guardarDocument (Document document,String ruta)
+			throws IOException, TransformerException {
+			DOMSource domSource = new DOMSource (document);
+			FileWriter fileWriter = new FileWriter (new File (ruta));
+			StreamResult streamResult = new	StreamResult (fileWriter);
+			TransformerFactory transformerFactory =	TransformerFactory.newInstance();
+			Transformer transformer = transformerFactory.newTransformer ();
+			transformer.setOutputProperty (OutputKeys. INDENT, "yes");
+			transformer.transform (domSource, streamResult);
+			fileWriter.close();
+			}
 
 }

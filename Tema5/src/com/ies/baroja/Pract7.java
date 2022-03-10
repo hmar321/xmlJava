@@ -45,6 +45,7 @@ public class Pract7 {
 			// Imprimir
 			Utilidades.imprimirXml(document);
 			// Guardamos documento
+			
 			guardarDocument(document);
 		} catch (ParserConfigurationException | TransformerException | IOException e) {
 			e.printStackTrace();

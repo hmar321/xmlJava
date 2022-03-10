@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+  <persona mayor="true" genero="f">
+    <nombre>Eva</nombre>
+    <edad>25</edad>
+  </persona>
+  <persona mayor="false" genero="m">
+    <nombre>Giovanni</nombre>
+    <edad>17</edad>
+  </persona>
+  <persona mayor="true" genero="m">
+    <nombre>Fernando</nombre>
+    <edad>35</edad>
+  </persona>
+  <persona mayor="true" genero="m">
+    <nombre>Diego</nombre>
+    <edad>43</edad>
+  </persona>
+  <persona mayor="false" genero="m">
+    <nombre>Iván</nombre>
+    <edad>15</edad>
+  </persona>
+  <persona mayor="true" genero="m">
+    <nombre>Luis</nombre>
+    <edad>24</edad>
+  </persona>
+</personas>

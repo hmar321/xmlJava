@@ -1,0 +1,22 @@
+<vehiculos>
+    <vehiculo>
+        <matricula>6546LAK</matricula>
+        <modelo>cx-3</modelo>
+        <marca>MAZDA</marca>
+    </vehiculo>
+    <vehiculo>
+        <matricula>8430ERF</matricula>
+        <modelo>3008</modelo>
+        <marca>Peugeot</marca>
+    </vehiculo>
+    <vehiculo>
+        <matricula>6841JTA</matricula>
+        <modelo>T-ROC</modelo>
+        <marca>Peugeot</marca>
+    </vehiculo>
+    <vehiculo>
+        <matricula>4984TGE</matricula>
+        <modelo>PANDA</modelo>
+        <marca>Fiat</marca>
+    </vehiculo>
+</vehiculos>

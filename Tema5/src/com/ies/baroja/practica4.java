@@ -7,6 +7,7 @@ import org.w3c.dom.NodeList;
 public class practica4 {
 
 	public static void main(String[] args) {
+		// Utilidades.procesarArchivo monta un objeto document y lo vuelca en "document"
 		Document document = Utilidades.procesarArchivo("src\\ejemplosxml\\practica4.xml");
 		procesarDocumentoAlternativo(document);
 		imprimirMenoresde(document,40);
