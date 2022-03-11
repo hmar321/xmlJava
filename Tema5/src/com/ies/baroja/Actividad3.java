@@ -40,22 +40,28 @@ public class Actividad3 {
 			Text textP2Ciu3 = document.createTextNode("Cacun");
 			Text textP2Ciu4 = document.createTextNode("Merida");
 			Text textP2Ciu5 = document.createTextNode("Ciudad de Mexico");
-			
 
 			// 3. Establecimiento de las relaciones.
 			elementPaises.appendChild(elementPais1);
 			elementPais1.setAttribute("nombre", "Argentina");
 			elementPais1.appendChild(elementP1Ciudad1);
+			elementP1Ciudad1.setAttribute("id", "Argen1");
 			elementPais1.appendChild(elementP1Ciudad2);
+			elementP1Ciudad2.setAttribute("id", "Argen2");
 			elementP1Ciudad1.appendChild(textP1Ciu1);
 			elementP1Ciudad2.appendChild(textP1Ciu2);
 			elementPaises.appendChild(elementPais2);
 			elementPais2.setAttribute("nombre", "Mexico");
 			elementPais2.appendChild(elementP2Ciudad1);
+			elementP2Ciudad1.setAttribute("id", "Mex1");
 			elementPais2.appendChild(elementP2Ciudad2);
+			elementP2Ciudad2.setAttribute("id", "Mex2");
 			elementPais2.appendChild(elementP2Ciudad3);
+			elementP2Ciudad3.setAttribute("id", "Mex3");
 			elementPais2.appendChild(elementP2Ciudad4);
+			elementP2Ciudad4.setAttribute("id", "Mex4");
 			elementPais2.appendChild(elementP2Ciudad5);
+			elementP2Ciudad5.setAttribute("id", "Mex5");
 			elementP2Ciudad1.appendChild(textP2Ciu1);
 			elementP2Ciudad2.appendChild(textP2Ciu2);
 			elementP2Ciudad3.appendChild(textP2Ciu3);
@@ -63,16 +69,22 @@ public class Actividad3 {
 			elementP2Ciudad5.appendChild(textP2Ciu5);
 			elementPaises.appendChild(elementPais3);
 			elementPais3.setAttribute("nombre", "Colombia");
-			document.appendChild(elementPaises);			
+			document.appendChild(elementPaises);
 			// Imprimir
 			Utilidades.imprimirXml(document);
 			// Guardamos documento
 			// ejemplo de ruta "src\\ejemplosxml\\nombre.xml"
-			String ruta="src\\ejemplosxml\\Actividad3.xml";
-			Utilidades.guardarDocument(document,ruta);
+			String ruta = "src\\ejemplosxml\\Actividad3.xml";
+			Utilidades.guardarDocument(document, ruta);
+			// nuevo objeto document java analizando la ruta donde se guardo Actividad3.xml
+			Document document2 = Utilidades.procesarArchivo(ruta);
+			// nueva ruta para la copia "Actividad3copia.xml"
+			String ruta2 = "src\\ejemplosxml\\Actividad3copia.xml";
+			// pasando el objeto y la ruta2 al método guardarDocument se guarda una copia
+			Utilidades.guardarDocument(document2, ruta2);
 		} catch (ParserConfigurationException | TransformerException | IOException e) {
 			e.printStackTrace();
 		}
-	}	
-	
+	}
+
 }

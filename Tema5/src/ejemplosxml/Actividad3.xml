@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <paises>
     <pais nombre="Argentina">
-        <ciudad>Buenos Aires</ciudad>
-        <ciudad>Rosario</ciudad>
+        <ciudad id="Argen1">Buenos Aires</ciudad>
+        <ciudad id="Argen2">Rosario</ciudad>
     </pais>
     <pais nombre="Mexico">
-        <ciudad>Guadalajara</ciudad>
-        <ciudad>Monterrey</ciudad>
-        <ciudad>Cacun</ciudad>
-        <ciudad>Merida</ciudad>
-        <ciudad>Ciudad de Mexico</ciudad>
+        <ciudad id="Mex1">Guadalajara</ciudad>
+        <ciudad id="Mex2">Monterrey</ciudad>
+        <ciudad id="Mex3">Cacun</ciudad>
+        <ciudad id="Mex4">Merida</ciudad>
+        <ciudad id="Mex5">Ciudad de Mexico</ciudad>
     </pais>
     <pais nombre="Colombia"/>
 </paises>
