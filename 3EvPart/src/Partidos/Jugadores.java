@@ -18,14 +18,12 @@ public class Jugadores extends Personas {
 
 	}
 
-	// Para mostrar los datos
+	// Sobre escrito del metodo heredado añadiendo los nuevos atributos
+	@Override
 	public void mostrarDatos() {
-		System.out.println("DNI: " + dni + "\nNombre: " + nombre + "\nApellido: " + apellido);
-		System.out.println("Fecha de nacimiento: " + fechaNacimiento);
-		System.out.println("Ciudad :" + ciudad + "\nPais: " + pais);
-		System.out.println("Dorsal: " + dorsal + "\nEquipo: " + equipo + "\nPosición: " + posicion);
-		System.out.println("Comentario: " + comentario);
-		System.out.println("Edad: " + edad);
+		System.out.println("DNI: " + dni + "\nNombre: " + nombre + "\nApellido: " + apellido + "\nFecha de nacimiento: "
+				+ fechaNacimiento + "\nCiudad :" + ciudad + "\nPais: " + pais+"\nEdad: " + edad);
+		System.out.println("Dorsal: " + dorsal + "\nEquipo: " + equipo + "\nPosición: " + posicion+"\nComentario: " + comentario);
 	}
 
 }

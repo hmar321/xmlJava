@@ -29,7 +29,11 @@ public class Personas {
 		this.edad = edad;
 
 	}
-
+	// Me parece que el metodo mostrar datos esta mejor aquí
+	public void mostrarDatos() {
+		System.out.println("DNI: " + dni + "\nNombre: " + nombre + "\nApellido: " + apellido + "\nFecha de nacimiento: "
+				+ fechaNacimiento + "\nCiudad :" + ciudad + "\nPais: " + pais+"\nEdad: " + edad);
+	}
 	// MÉTODO PARA CALCULAR LA EDAD: (sacado de internet)
 	// No funciona al ser FechaNacimiento LocalDate
 	public int edad(String[] fechaNacimiento) {
