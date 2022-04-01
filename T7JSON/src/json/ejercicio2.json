@@ -1,0 +1,38 @@
+{"personas": {"persona": [
+    {
+        "edad": 25,
+        "genero": "f",
+        "mayor": true,
+        "nombre": "Eva"
+    },
+    {
+        "edad": 17,
+        "genero": "m",
+        "mayor": false,
+        "nombre": "Giovanni"
+    },
+    {
+        "edad": 35,
+        "genero": "m",
+        "mayor": true,
+        "nombre": "Fernando"
+    },
+    {
+        "edad": 43,
+        "genero": "m",
+        "mayor": true,
+        "nombre": "Diego"
+    },
+    {
+        "edad": 15,
+        "genero": "m",
+        "mayor": false,
+        "nombre": "Iván"
+    },
+    {
+        "edad": 24,
+        "genero": "m",
+        "mayor": true,
+        "nombre": "Luis"
+    }
+]}}
